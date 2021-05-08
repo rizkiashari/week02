@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Concatenate Arrays</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="header">
+    <div class="logo">
+      <h3>Rizki Ashari</h3>
+    </div>
+    <nav class="menu">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <div class="dropdown">
+          <button class="dropbtn">Task</button>
+          <div class="dropdown-content">
+          <a href="../Asterik_Pattern/pattern.html">Asterik Pattern </a>
+          <a href="../Pascal's_Triangle/pascal.html">Pascal's Triangle</a>
+          <a href="../Prime_Number_Range/primeRange.html">Prime Number Range</a>
+          <a href="../Multiplication_Table/multiplication.html">Multiplication Table</a>
+          <a href="../Vowels_Check/vowels.html">Vowels Check</a>
+          <a href="../TheFibonacci_NumberSequence/fibonacci.html">The Fibonacci Number Sequence</a>
+          <a href="../RemovesTheArray_BasedOnTheInput/removeArrray.html">Removes the Array based on the input</a>
+          <a href="./concate.html">Concatenante Arrays</a>
+          </div>
+          </div>
+        </div>
+      </ul>
+    </nav>
+  </div>
+  <section class="container">
+    <h2>Concatenate Array</h2>
+    <div>
+      <input id="concat-input-1" class="custom-input" type="text" placeholder="Input 1">
+    </div>
+    <div>
+      <input id="concat-input-2" class="custom-input" type="text" placeholder="Input 2"/>
+    </div>
+    <div>
+      <button type="submit" class="btn-primary" onclick="concate()">Click Me</button>
+    </div>
+    <div>
+      <p class="output">Output: </p>
+      <p id="concate-output" class="custom-output"> </p>
+    </div>
+    
+    <!-- Flowchart -->
+    <div class="flowchart">
+      <p class="title-flow">Flowchart</p>
+      <img src="../Flowchart/concate.png" alt="flowchart">
+    </div>
+  </section>
+  <script src="./concate.js"></script>
+</body>
+</html>
